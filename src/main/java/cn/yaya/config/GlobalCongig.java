@@ -1,6 +1,7 @@
 package cn.yaya.config;
 
 
+
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ModelAttribute;
 
@@ -15,6 +16,7 @@ public class GlobalCongig {
         map.put("username","牙牙");
         map.put("gender","男");
         return map;
+
     }
 }
 

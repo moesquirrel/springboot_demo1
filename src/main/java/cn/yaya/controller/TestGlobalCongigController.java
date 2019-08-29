@@ -8,6 +8,10 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 import java.util.Map;
 import java.util.Set;
+
+/**
+ * 测试设置的全局数据获取
+ */
 @Controller
 @RequestMapping("/tt")
 public class TestGlobalCongigController {
